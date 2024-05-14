@@ -29,7 +29,7 @@ def save_to_header(data:np.ndarray, output_file:str):
 if __name__ == "__main__":
     # Todo: Add path for image/images and the output file name with .h extension (eg- filename.h)
     image_path = "EmbAI_2024/test_inputs/benchmark_image.jpg"
-    output_file = "test.h"
+    output_file = "converted_image.h"
 
     processed_image = preprocess_image(image_path)
     save_to_header(processed_image, output_file)
